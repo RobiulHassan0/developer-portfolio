@@ -20,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .logo-name{
     color: black;
@@ -37,4 +38,21 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* Headter Styles */
+
+header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+
+}
+.profile{
+    width: 500px;
 }
