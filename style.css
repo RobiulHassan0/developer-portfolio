@@ -86,10 +86,58 @@ header{
     width: 500px;
 }
 
-/* Main < About Section Styles */
+/* Main Section Styles */
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* About Section Styles */
 .about{
     background: #FFF8F3;
     padding: 130px;
     border-radius: 10px;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.What-ido-desc{
+    padding: 30px 150px ;
+}
+
+/* Skills Section Styles */
+.skills-container{
+    display: flex;
+    justify-content:space-around ;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.6);
+}
+.skill-description{
+    color: #757575;
+}
+
+/* Resume Section Styles */
+
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
 }
